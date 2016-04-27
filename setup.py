@@ -3,6 +3,7 @@ from distutils.core import Extension
 from glob import glob
 import os
 import shutil
+import subprocess
 
 libraspa2_so = Extension("RASPA2.simulations.lib.libraspa2",
                          sources=glob("src/*.c"),
@@ -24,9 +25,13 @@ for structure_type in structure_types:
         shutil.copy(structure, new_path)
     raspa_data += glob("{p}/*.{t}".format(p=new_path, t=structure_type))
 
+release_version = subprocess.getoutput('git describe --tags')
+if release_version[0:1] == 'v':
+    release_version = release_version[1:]
+
 setup(
     name="RASPA2",
-    version="2.0.2",
+    version=release_version,
     description="A general purpose classical simulation package.",
     url="http://github.com/numat/RASPA2/",
     author="David Dubbeldam",
