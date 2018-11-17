@@ -30,5 +30,5 @@ Na         yes     Na    Na    0           22.98977    1.0      0.0          1.0
 Cl         yes     Cl    Cl    0           35.453     -1.0      0.0          1.0      1.00   0            0           relative           0
 Kr         yes     Kr    Kr    0           83.798      0.0      0.0          1.0      1.00   0            0           relative           0
 Xe         yes     Xe    Xe    0           131.293     0.0      0.0          1.0      1.00   0            0           relative           0
-S          yes     S     S     0            32.066    -0.252    0.0          1.0      1.00   0            0           relative           0
-H          yes     H     H     0           1.00794     0.126    0.0          1.2      1.00   0            0           relative           0
+S_S        yes     S     S     0            32.066    -0.252    0.0          1.0      1.00   0            0           relative           0
+H_S        yes     H     H     0           1.00794     0.126    0.0          1.2      1.00   0            0           relative           0
