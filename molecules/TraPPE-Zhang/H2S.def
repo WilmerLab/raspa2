@@ -13,7 +13,7 @@ rigid
 # atomic positions
 0 S_S         -0.3541   0.2743  -0.4189
 1 H_S          0.9737   0.1714  -0.2619
-2 H_S         -0.6197  -0.4457   0.680 
+2 H_S         -0.6197  -0.4457   0.6808 
 # Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
 0    2       0    0            0       0        0            0         0    0         0               0            0        0            0
 # Bond stretch: atom n1-n2, type, parameters

@@ -3,31 +3,35 @@ shifted
 # general rule tailcorrections
 no
 # number of defined interactions
-57
+63
 # type interaction, parameters.    IMPORTANT: define shortest matches first, so that more specific ones overwrites these
-O_             lennard-jones    48.1581   3.03315
-N_             lennard-jones    38.9492   3.26256
-C_             lennard-jones    47.8562   3.47299
+cgO            lennard-jones    30.1932   3.5
+cgC            lennard-jones    52.8381   3.851
+cgH            lennard-jones    22.1417   2.886
+cgZn           lennard-jones    62.3992   2.46155
+O_             lennard-jones    30.1932   3.5
+N_             lennard-jones    34.7222   3.66
+C_             lennard-jones    52.8381   3.851
 F_             lennard-jones    36.4834   3.0932
 B_             lennard-jones    47.8058   3.58141
 P_             lennard-jones   161.03     3.69723
 S_             lennard-jones   173.107    3.59032
 Cl_            lennard-jones   142.562    3.51932
 Br_            lennard-jones   186.191    3.51905
-H_             lennard-jones     7.64893  2.84642
+H_             lennard-jones    22.1417   2.886
 Zn_            lennard-jones    62.3992   2.46155
 Be_            lennard-jones    42.7736   2.44552
 Cr_            lennard-jones     7.54829  2.69319
 Fe_            lennard-jones     6.54185  2.5943
 Mn_            lennard-jones     6.54185  2.63795
-Cu_            lennard-jones     2.5161   3.11369
+Cu_            lennard-jones     2.5161   3.495
 Co_            lennard-jones     7.04507  2.55866
 Ga_            lennard-jones   208.836    3.90481
 Ti_            lennard-jones     8.55473  2.8286
 Sc_            lennard-jones     9.56117  2.93551
 V_             lennard-jones     8.05151  2.80099
 Ni_            lennard-jones     7.54829  2.52481
-Zr_            lennard-jones    34.7221   2.78317
+Zr_            lennard-jones    34.7221   3.124
 Mg_            lennard-jones    55.8574   2.69141
 Ne_            lennard-jones    21.1352   2.88918
 Ag_            lennard-jones    18.1159   2.80455
@@ -51,6 +55,8 @@ C_benz         lennard-jones    30.70     3.60
 H_benz         lennard-jones    25.45     2.36
 N_n2           lennard-jones    36.0      3.31
 N_com          none
+O_o2           lennard-jones    49.000    3.02
+O_com          none
 Ow             lennard-jones    89.633    3.097
 N_dmf          lennard-jones    80.0      3.2
 Co_dmf         lennard-jones    50.0      3.7
@@ -60,7 +66,7 @@ H_dmf          lennard-jones    8.0       2.2
 Ar             lennard-jones    119.8     3.34
 Kr             lennard-jones    166.4     3.636
 Xe             lennard-jones    221.0     4.1
-S_S            lennard-jones    278.0     3.71
-H_S            lennard-jones      0.0     0.0
+S_S            lennard-jones    278       3.71
+H_S            lennard-jones     0          0 
 # general mixing rule for Lennard-Jones
 Lorentz-Berthelot
